@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <title class="h1">SMK Swasta Beringin</title>
+</head>
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="position: sticky;">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            SMKN 1 Setia Janji
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-pills">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="page2.html">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page3.html">Program Keahlian</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#page4">PPDB Online</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page5.html">Hubungi Kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="continer" style="text-align: center;" id="page4">
+        <img src="img/2020-copy 1.png" alt="" class="img-fluid">
+    </div>
+
+    <div class="container" style="padding-top: 50px;">
+        <div class="col-sm-8 " style="text-align: center; background-color: darkgray; border-radius: 30px; padding: 30px;">
+            <h5><b>Form Pendaftaran</b></h5>
+            <form style="text-align: left;">
+                <div class="mb-3" >
+                  <label for="nisn" class="form-label" >NISN</label>
+                  <input type="nisn" class="form-control" id="nisn" aria-describedby="nisn">
+                </div>
+                <div class="mb-3" >
+                    <label for="nama" class="form-label" >Nama</label>
+                    <input type="nama" class="form-control" id="nama" aria-describedby="nama">
+                </div>
+                <div class="mb-3" >
+                    <label for="asalsekolah" class="form-label" >Asal Sekolah</label>
+                    <input type="asalsekolah" class="form-control" id="asalsekolah" aria-describedby="asalsekolah">
+                </div>
+                <div class="mb-3" >
+                    <label for="jeniskelamin" class="form-label" >Jenis Kelamin</label>
+                    <input type="jeniskelamin" class="form-control" id="jeniskelamin" aria-describedby="jeniskelamin">
+                </div>
+                <div class="mb-3" >
+                    <label for="ttl" class="form-label" >Tempat/Tanggal Lahir</label>
+                    <input type="ttl" class="form-control" id="ttl" aria-describedby="ttlh">
+                </div>
+                <div class="mb-3" >
+                    <label for="alamat" class="form-label" >Alamat</label>
+                    <input type="alamat" class="form-control" id="alamat" aria-describedby="alamat">
+                </div>
+                <div class="mb-3" >
+                    <label for="nohp" class="form-label" >No HP</label>
+                    <input type="nohp" class="form-control" id="nohp" aria-describedby="nohp">
+                </div>
+                <div class="mb-3" >
+                    <label for="email" class="form-label" >Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="email">
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected class="disabled">Program Keahlian</option>
+                    <option value="1">Rekayasa Perangkat Lunak</option>
+                    <option value="2">Teknik Bisnis Sepeda Motor</option>
+                    <option value="3">Teknik Kendaraan Ringan Otomotif</option>
+                  </select>
+                  <div style="padding-top: 30px;"><button type="submit" class="btn btn-primary">Daftar</button></div>
+                
+              </form>
+        </div>
+    </div>
+
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2020 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">SMK Swasta Beringin</a>
+        </div>
+        <!-- Copyright -->
+      </footer> 
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  
+</body>
+</html>
